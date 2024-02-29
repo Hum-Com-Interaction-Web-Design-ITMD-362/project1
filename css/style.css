@@ -13,7 +13,7 @@ h1 {
 }
 
 legend {
-    color: #555;
+    color:forestgreen;
     font-size:1em;
     font-family: 'Playfair Display', 'Anta', 'Roboto', serif;
     text-align: center;
@@ -24,5 +24,23 @@ form {
     margin: 20px auto;
     padding: 20px;
     border-radius: 3px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(22, 106, 47, 0.407);
+}
+
+label {
+    color:#333;
+    font-size:1em;
+    font-family: 'Playfair Display', 'Anta', 'Roboto', serif;
+    display: block;
+    margin-bottom:10px;
+    color:#333;
+}
+
+input {
+    width:95%;
+    padding:12px;
+    margin-bottom:20px;
+    background-color: rgba(22, 106, 47, 0.407);
+    border: 1px solid rgba(22, 106, 47, 0.407);
+    border-radius: 5px;
 }
