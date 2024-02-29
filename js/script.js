@@ -6,7 +6,7 @@ window.onload = function() {
             event.preventDefault();
             const formData = new FormData(form);
 
-            let message = 'You have successfully signed up. Thank you! Is the following information correct?\n';
+            let message = 'You have successfully signed up. Thank you! Click "OK" if the following information is correct?\n';
             for (let pair of formData.entries()) {
                 message += `${pair[0]}: ${pair[1]}\n`;
             }
