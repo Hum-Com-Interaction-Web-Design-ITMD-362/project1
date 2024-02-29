@@ -11,3 +11,9 @@ h1 {
     text-align: center;
 }
 
+legend {
+    color: #555;
+    font-size:1em;
+    font-family: 'Playfair Display', 'Anta', 'Roboto', serif;
+    text-align: center;
+}
